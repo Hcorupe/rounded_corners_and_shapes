@@ -18,7 +18,6 @@ class RoundedCheckBoxListTile extends StatelessWidget {
       ),
     ),
       child: CheckboxListTile(
-
         title: const Text('CircularCheckBoxListTile'),
         value: true,
         onChanged: (_){},

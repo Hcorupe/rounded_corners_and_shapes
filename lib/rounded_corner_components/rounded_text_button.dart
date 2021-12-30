@@ -7,7 +7,8 @@ class RoundedTextButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Theme(
-      data: Theme.of(context).copyWith(textButtonTheme: TextButtonThemeData(
+      data: Theme.of(context).copyWith(
+        textButtonTheme: TextButtonThemeData(
         style: ButtonStyle(
           minimumSize: MaterialStateProperty.all(
             const Size.fromHeight(100),

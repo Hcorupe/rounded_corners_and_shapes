@@ -7,7 +7,7 @@ class CircularCheckBoxListTile extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Theme(data: Theme.of(context).copyWith(
-      checkboxTheme: const CheckboxThemeData(
+      checkboxTheme: CheckboxThemeData(
         //this is the shape of the checkbox
         shape: CircleBorder(),
       ),
@@ -20,12 +20,14 @@ class CircularCheckBoxListTile extends StatelessWidget {
           //This is the shape of the list tile itself
 
           shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(20),
-          side: const BorderSide(
-          color: Colors.black,
-          )
-        ),
+              borderRadius: BorderRadius.circular(20),
+              side: BorderSide(
+                color: Colors.black,
+              )
+          ),
         ),
     );
   }
 }
+
+

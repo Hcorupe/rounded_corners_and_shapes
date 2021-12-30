@@ -9,6 +9,7 @@ import 'package:rounded_corners_and_shapes/circular_components/circular_text_but
 import 'package:rounded_corners_and_shapes/rounded_corner_components/rounded_card.dart';
 import 'package:rounded_corners_and_shapes/rounded_corner_components/rounded_check_box_list_tile.dart';
 import 'package:rounded_corners_and_shapes/rounded_corner_components/rounded_container.dart';
+import 'package:rounded_corners_and_shapes/rounded_corner_components/rounded_elevated_button.dart';
 import 'package:rounded_corners_and_shapes/rounded_corner_components/rounded_icon.dart';
 import 'package:rounded_corners_and_shapes/rounded_corner_components/rounded_image.dart';
 import 'package:rounded_corners_and_shapes/rounded_corner_components/rounded_outline_button.dart';
@@ -37,7 +38,7 @@ class MyApp extends StatelessWidget {
             bottom: const TabBar(
               tabs: [
                 Tab(
-                  text: ('circular Components'),
+                  text: ('Circular Components'),
                 ),
                 Tab(
                   text: ('Rounded Components'),
@@ -65,7 +66,7 @@ class MyApp extends StatelessWidget {
 
 ListView circularComponents(){
   return ListView(
-    padding: EdgeInsets.symmetric(horizontal: 16),
+    padding: const EdgeInsets.symmetric(horizontal: 16),
     children: [
       CircularCard(),
       CircularCheckBoxListTile(),
@@ -75,7 +76,7 @@ ListView circularComponents(){
       CircularImage(),
       CircularOutlinedButton(),
       CircularTextButton(),
-      CircleAvatar(
+      const CircleAvatar(
         child: Text('Circle Avatar'),
         radius: 50,),
 
@@ -94,6 +95,7 @@ ListView roundedComponents(){
       RoundedCard(),
       RoundedCheckBoxListTile(),
       RoundedContainer(),
+      RoundedElevatedButton(),
       RoundedIcon(),
       RoundedImage(),
       RoundedOutlineButton(),

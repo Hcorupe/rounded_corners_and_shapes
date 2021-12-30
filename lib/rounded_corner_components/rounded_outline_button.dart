@@ -9,7 +9,8 @@ class RoundedOutlineButton extends StatelessWidget {
       data: Theme.of(context).copyWith(
         outlinedButtonTheme: OutlinedButtonThemeData(
         style: ButtonStyle(
-          minimumSize: MaterialStateProperty.all(Size.fromHeight(100),
+          minimumSize: MaterialStateProperty.all(
+            Size.fromHeight(100),
           ),
           shape: MaterialStateProperty.all(
            RoundedRectangleBorder(
