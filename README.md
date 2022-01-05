@@ -1,4 +1,4 @@
-Rounded Corners and Shape 
+Rounded Corners and Shapes
 
 1 Card
 
